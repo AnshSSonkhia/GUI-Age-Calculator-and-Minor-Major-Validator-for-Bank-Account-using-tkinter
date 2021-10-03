@@ -98,6 +98,7 @@ if __name__ == "__main__":
     # Create an instance of tkinter frame
     win = Tk()
     win.title("Bank Account Eligibilty Finder")
+    win.geometry("700x700")
     
     frame = Frame(win, relief='sunken', bg="black")
     frame.pack(fill=BOTH, expand=True, padx=10, pady=20)
